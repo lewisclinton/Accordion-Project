@@ -16,7 +16,7 @@ export default function Accordian() {
 
     return (
         <div className="wrapper">
-            <button className="header">Single Selection Accordion</button>
+            <button className="header">Selection Accordion</button>
             <div className="accordian">
                 {
                     data && data.length > 0 ?
